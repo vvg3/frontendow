@@ -9,7 +9,7 @@ export class UserprofileListComponent {
   imageWidth: number = 50;
   imageMargin: number = 2;
   clickMe: boolean = false;
-  listSearch: string = '';
+  // listSearch: string = '';
   teams: any[] = [
     {
       'date': '4-15-2018',
