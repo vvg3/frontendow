@@ -19,5 +19,5 @@ import {Component} from '@angular/core';
           `
 })
 export class AppComponent {
-  pageTitle: string = 'OW Home Page';
+  pageTitle: string = 'OW User Profile Page';
 }
