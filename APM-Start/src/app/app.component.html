@@ -1,11 +1,19 @@
-<!--The whole content below can be removed with the new code.-->
-<!-- <div style="text-align:center">
-  <h1>
-    Tada! Welcome to {{title}}!!
-  </h1>
-  ... Starter Files ...
-</div> -->
-
-<ng-nav></ng-nav>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">NATURAL SELECTION</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+      <ul class="nav navbar-nav navbar-right" routerLinkActive="active">
+          <li class="nav-item"><a class="nav-link" routerLink="home">Upcoming Games</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="team">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="leaderboard">Leaderboard</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="profile">Profile</a></li>
+        </ul>
+    </div>
+  </nav>
 
 <router-outlet></router-outlet>

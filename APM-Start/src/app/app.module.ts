@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
+import { ROUTING } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app.routing';
 import {UserprofileListComponent} from './userprofiles/userprofile-list.component';
 import {FormsModule} from '@angular/forms';
 import { WelcomeComponent } from './home/welcome.component';
-import { NavbarComponent } from './nav/nav.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { TeamComponent } from './team/team.component';
+
 
 
 @NgModule({
@@ -15,12 +17,12 @@ import { NavbarComponent } from './nav/nav.component';
     AppComponent,
     UserprofileListComponent,
     WelcomeComponent,
-    NavbarComponent
-  ],
+    LeaderboardComponent,
+    TeamComponent  ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
