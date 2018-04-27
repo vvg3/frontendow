@@ -9,6 +9,8 @@ import {FormsModule} from '@angular/forms';
 import { WelcomeComponent } from './home/welcome.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { TeamComponent } from './team/team.component';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -18,7 +20,9 @@ import { TeamComponent } from './team/team.component';
     UserprofileListComponent,
     WelcomeComponent,
     LeaderboardComponent,
-    TeamComponent  ],
+    TeamComponent,
+    SignupComponent,
+    LoginComponent  ],
   imports: [
     BrowserModule,
     FormsModule,
